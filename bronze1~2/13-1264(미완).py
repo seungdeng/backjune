@@ -1,8 +1,9 @@
-str1 = input()
-str2 = input()
-str3 = input()
-
-count = {0,0,0}
-
-for i in range count:
-    
+while(True):
+   A = input()
+   if A =="#":
+        break;
+   count = 0
+   for i in range(len(A)):
+     if A[i] in 'aeiouAEIOU':
+        count+=1
+   print(count)    
