@@ -1,0 +1,13 @@
+N = int(input())
+
+A=[]
+
+for i in range(N):
+    [a,b] = map(int,input().split())
+    A.append([a,b])
+
+result = sorted(A)
+
+for i in range(N):
+    print(result[i][0],result[i][1])
+
