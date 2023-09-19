@@ -13,4 +13,4 @@ else :
     a = line-N+1
     b = N
 
-print(a,'/',sep='')
+print(a,'/',b,sep='')
