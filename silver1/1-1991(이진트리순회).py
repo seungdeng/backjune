@@ -1,31 +1,31 @@
 
 N = int(input())
-tree = {}
- 
+tree = {} # DICT
+
 for n in range(N):
-    root, left, right = map(str,input().split())
-    tree[root] = [left, right]
+    root, left, right = map(str,input().split()) #메인노드 , 왼쪽,오른쪽 링크 구현
+    tree[root] = [left, right] # 트리 딕셔너리 root value에 left,right 링크 key값 저장
  
  
-def pre(root):
-    if root != '.':
-        print(root, end='')  # root
-        pre(tree[root][0])  # left
-        pre(tree[root][1])  # right
+def pre(root): #전위
+    if root != '.': # 비어있는 노드가 아니라면
+        print(root, end='')  # 해당 노드 출력
+        pre(tree[root][0])  # 왼쪽링크 이동 (재귀)
+        pre(tree[root][1])  # 위에 다 실행 후 아래링크 이동(재귀)
  
  
 def mid(root):
     if root != '.':
-        mid(tree[root][0])  # left
-        print(root, end='')  # root
-        mid(tree[root][1])  # right
- 
+        mid(tree[root][0])  
+        print(root, end='')
+        mid(tree[root][1])  
+
  
 def post(root):
     if root != '.':
-        post(tree[root][0])  # left
-        post(tree[root][1])  # right
-        print(root, end='')  # root
+        post(tree[root][0])  
+        post(tree[root][1])  
+        print(root, end='')  
  
  
 pre('A')
