@@ -11,4 +11,4 @@ for i in range(len(press)):
     result[press[i]] = i    
 
 for i in S:
-    print(result[i],end=' ')
+    print(result[i],end=' ')    
