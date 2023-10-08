@@ -15,5 +15,5 @@ for i in range(T) :
     N = int(input())
     for k in range(N) :
         a,b=input().split()
-        dic[a]=b
-    print(max(dic.keys()))
+        dic[a]=int(b)
+    print(max(dic,key=dic.get))
