@@ -8,9 +8,9 @@ for i in test:
     cal = S.count(i)
     countlist.append(cal)
 
-if countlist.count(max(countlist))>1:
+if countlist.count(max(countlist))>=2:
     print('?')
 else:
     idx = countlist.index(max(countlist))
-    print(test[idx])
+    print(test[idx].upper())
 
