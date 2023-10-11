@@ -6,8 +6,9 @@ for x in range(M) :
     i, j = map(int, input().split())
     S[i-1:j] = S[i-1:j][::-1]
     
-print(' '.join,map(str,S))
-# print(*S)
+for i in S:
+    print(i,end=' ')
+# print(*S)a
 # for i in range(M):
 #     i,j = map(int,input().split())
 #     i-=1
