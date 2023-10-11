@@ -17,6 +17,7 @@ for i in N:
 result +=str(temp)
 print(int(result[::-1]))
 
+print(oct(int(input(),2))[2:])
 # N = list(map(int,input()))
 
 # result=[]
