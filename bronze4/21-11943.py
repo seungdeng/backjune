@@ -1,5 +1,7 @@
 A,B = map(int,input().split())
 C,D = map(int,input().split())
-result = min(A,C)
-result +=min(B,D)
-print(result)
+
+if B+C <= A+D:
+    print(B+C)
+else:
+    print(A+D)
