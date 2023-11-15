@@ -1,5 +1,5 @@
 N = int(input())
 com = 0
 for i in range(N):
-    com += int(input())-1
-print(com)
+    com += int(input())
+print(com-(N-1))
