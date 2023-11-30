@@ -1,6 +1,7 @@
 N= int(input())
 S = list(map(int,input().split()))
 student = int(input())
+trust = True
 
 for i in range(student):
     sex,switchnum = map(int,input().split())#a=성별 b=스위치 번호
@@ -22,8 +23,10 @@ for i in range(student):
         
         leftidx = switchnum-2
         rightidx = switchnum
-        while 1:
+
+        while trust:
             if leftidx<0 or rightidx>=N:
+                # trust = False
                 break
             else:
                 # if S[leftidx]!=S[rightidx]:
@@ -36,9 +39,12 @@ for i in range(student):
                     S[leftidx]=1
                     S[rightidx]=1
                 else:
+                    trust = False
                     break
                 leftidx-=1
                 rightidx+=1
+            if trust == False:
+                break
                 
 
 for i in range(len(S)):
