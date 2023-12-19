@@ -10,7 +10,7 @@ while Q:
     for i in range(K-1):
         num=Q.popleft()
         Q.append(num)
-    result.append(Q.popleft())
+    result.append(Q.popleft())../
 
 print('<',end='')
 for i in range(len(result)-1):
