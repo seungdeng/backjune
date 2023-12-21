@@ -1,4 +1,6 @@
 T =int(input())
+dict = {1:'Korea',2:'Yonsei',3:'Draw'}
+
 
 for i in range(T):
     korea=0
