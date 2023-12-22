@@ -12,7 +12,7 @@ else:
 
 # vote = list(map(str,input().split()))
 
-# a=0
+# a=0ㅋ7
 # b=0
 # for i in vote:
 #     if i=='A':
