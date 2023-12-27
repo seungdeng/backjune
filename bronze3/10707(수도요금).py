@@ -9,9 +9,9 @@ result = []
 result.append(Xa*P)
 y = 0
 if P<=Yc:
-    y = Yb*P
+    y = Yb
 else:
-    y += Yb*Yc
+    y += Yb
     y += (P-Yc)*Yd
 result.append(y)
 
