@@ -8,4 +8,4 @@ else:
     print(0)
 
 
-# print(n*4-a-b-c-d)
+# print(n*4-a-b-c-d) 동률의 케이스를 나눠줘야했음
