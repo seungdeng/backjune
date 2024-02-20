@@ -9,5 +9,5 @@ for i in range(2,len(N)):
         result = N[i] + N[i-1]
         a = N[i]
         b = N[i-1]
-
+#차이 최소값 알아내기
 print(x*a+x*b)
