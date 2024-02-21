@@ -4,10 +4,13 @@ for i in range(15):
 for i in Pixel:
     if 'w' in i:
         print('chunbae')
-        break
+        exit()
+        # break
     elif 'b' in i:
         print('nabi')
-        break
+        # break
+        exit()
     elif 'g' in i:
         print('yeongcheol')
-        break
+        # break
+        exit()
