@@ -20,3 +20,4 @@ while 1:
 
 for i in sdsd:
     print(i,end='')
+    # 소떧소떡 출력
