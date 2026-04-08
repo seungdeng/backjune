@@ -12,11 +12,9 @@
 
 ---
 
-## 🏅 Solved.ac Profile
+## 🏅 Solved.ac Profile (Baekjoon Profile)
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=sgrhee333)](https://solved.ac/sgrhee333)
-
-![Solved.ac Stats](http://mazandi.herokuapp.com/api?handle=sgrhee333\&theme=warm)
 
 ---
 
@@ -24,7 +22,7 @@
 
 ### 🔹 백준 (BOJ)
 
-* 티어 기반 학습 (Bronze → Diamond)
+* 티어 기반 학습 
 * 문제 번호 기준 정리
 * 다양한 알고리즘 유형 학습 (DP, 그래프, 그리디 등)
 
@@ -41,6 +39,7 @@
 ```bash
 .
 ├── 백준/
+|   ├── 응애새싹/
 │   ├── Bronze/
 │   ├── Silver/
 │   ├── Gold/
@@ -49,7 +48,7 @@
 │   ├── 0/
 │   ├── 1/
 │   ├── 2/
-│   └── ...
+│   └── 3/
 └── README.md
 ```
 
@@ -57,10 +56,10 @@
 
 ## 📈 Growth & Goals
 
-* ✔️ 매일 꾸준한 문제 풀이
-* ✔️ 다양한 난이도 문제 도전
-* ✔️ 코드 품질 개선 및 리팩토링
-* ✔️ 실전 코딩 테스트 대비
+*  매일 꾸준한 문제 풀이
+*  다양한 난이도 문제 도전
+*  코드 품질 개선 및 리팩토링
+*  실전 코딩 테스트 대비
 
 ---
 
@@ -80,12 +79,6 @@
 
 ---
 
-## 💡 Philosophy
-
-> "꾸준함이 만든다. 알고리즘은 근육이다."
-
----
-
 ## 📌 Note
 
 이 레포지토리는 개인 학습 및 기록을 위한 공간입니다.
@@ -93,4 +86,3 @@
 
 ---
 
-⭐ **If you find this repository helpful, feel free to star it!**
