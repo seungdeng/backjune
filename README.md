@@ -1,52 +1,96 @@
-# 백준 알고리즘 코딩 연습 레포지토리 🎯
+# 🚀 Coding Practice Algorithm
 
-안녕하세요! 👋  
-이 레포지토리는 [백준 온라인 저지](https://www.acmicpc.net/)에서 풀어본 알고리즘 문제를 기록한 공간입니다.  
-문제를 **티어별**, **문제 번호별**로 분류하여 체계적으로 정리하였습니다.
+> 꾸준한 문제 풀이로 알고리즘 실력을 쌓아가는 기록형 레포지토리
 
 ---
 
-## 🌟 목표와 목적
-- 꾸준한 문제 풀이를 통해 **알고리즘 이해**와 **문제 해결 능력**을 키웁니다.
-- 다양한 알고리즘 유형과 자료구조를 학습하며 **효율적**인 코드를 작성합니다.
-- 코딩 테스트와 실무 프로그래밍 문제에 대한 **대비**를 목표로 합니다.
+## 👨‍💻 About Me
+
+* 알고리즘 문제 해결 능력을 꾸준히 향상시키는 것을 목표로 합니다.
+* 백준(BOJ)과 프로그래머스를 병행하며 다양한 문제 유형을 학습하고 있습니다.
+* 단순 풀이 저장이 아닌, **문제 해결력 향상**을 위한 아카이브입니다.
 
 ---
 
-## 📂 분류 기준
-- **티어별 분류**  
-  문제 난이도에 따라 브론즈부터 레드까지 티어별로 분류하였습니다.  
-  (브론즈 → 실버 → 골드 → 플래티넘 → 다이아 → 루비 → 레드)
+## 🏅 Solved.ac Profile
 
-- **문제 번호별 분류**  
-  백준에서 제공하는 문제 번호 기준으로 문제를 정렬하여 검색과 관리가 용이합니다.
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=sgrhee333)](https://solved.ac/sgrhee333)
+
+![Solved.ac Stats](http://mazandi.herokuapp.com/api?handle=sgrhee333\&theme=warm)
 
 ---
 
-## 🏆 성취 현황
-- **총 문제 수**: 381개 (2024년 11월 기준)
-- **티어별 풀이 현황**:
-  - 🟤 브론즈: 236문제
-  - ⚪ 실버: 140문제
-  - 🟡 골드: 5문제
-  - 🔵 플래티넘: 0문제
-  - 💎 다이아: 0문제
-  - ❤️ 레드: 0문제
+## 📊 Problem Solving Platforms
+
+### 🔹 백준 (BOJ)
+
+* 티어 기반 학습 (Bronze → Diamond)
+* 문제 번호 기준 정리
+* 다양한 알고리즘 유형 학습 (DP, 그래프, 그리디 등)
+
+### 🔹 프로그래머스 (Programmers)
+
+* Level 기반 문제 풀이
+* 실무형 코딩 테스트 대비
+* 자료구조 및 구현 중심 문제 학습
 
 ---
 
-## 🔗 백준 프로필
-<!--[![백준 프로필](https://static.solved.ac/tier_small.png)](https://www.acmicpc.net/user/sgrhee333)  -->
-**[sgrhee333님의 백준 프로필로 이동하기](https://www.acmicpc.net/user/sgrhee333)**
+## 📁 Directory Structure
+
+```bash
+.
+├── 백준/
+│   ├── Bronze/
+│   ├── Silver/
+│   ├── Gold/
+│   └── ...
+├── 프로그래머스/
+│   ├── 0/
+│   ├── 1/
+│   ├── 2/
+│   └── ...
+└── README.md
+```
 
 ---
 
+## 📈 Growth & Goals
 
-🛠 사용 기술 <br>
-Python: 간결하고 가독성 높은 코드를 작성하기 위해 주요 언어로 사용했습니다. <br>
-GitHub: 풀이 과정을 기록하고 버전 관리를 위해 활용했습니다.<br>
-<br>
-📢 참고<br>
-본 레포지토리는 개인 학습 및 기록을 위해 작성되었습니다. <br>
-문제에 대한 자세한 설명은 백준 온라인 저지에서 확인하세요.<br><br>
-**🔥 꾸준한 노력은 배신하지 않습니다. Let's solve it! 🔥**
+* ✔️ 매일 꾸준한 문제 풀이
+* ✔️ 다양한 난이도 문제 도전
+* ✔️ 코드 품질 개선 및 리팩토링
+* ✔️ 실전 코딩 테스트 대비
+
+---
+
+## 🛠 Tech Stack
+
+* **Language**: Python
+* **Tools**: Git, GitHub
+* **Focus**: Algorithm, Data Structure, Problem Solving
+
+---
+
+## 🔗 Links
+
+* BOJ: https://www.acmicpc.net/
+* Programmers: https://school.programmers.co.kr/
+* Solved.ac: https://solved.ac/sgrhee333
+
+---
+
+## 💡 Philosophy
+
+> "꾸준함이 만든다. 알고리즘은 근육이다."
+
+---
+
+## 📌 Note
+
+이 레포지토리는 개인 학습 및 기록을 위한 공간입니다.
+문제의 상세 설명은 각 플랫폼에서 확인할 수 있습니다.
+
+---
+
+⭐ **If you find this repository helpful, feel free to star it!**
